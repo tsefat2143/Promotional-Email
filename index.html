@@ -12,39 +12,6 @@
     *{
         padding: 0;
     }
-    .star {
-        position: relative;
-        display: inline-block;
-        width: 0;
-        height: 0;
-        margin-left: 0.9em;
-        margin-right: 0.9em;
-        margin-bottom: 1.2em;
-        border-right: 0.3em solid transparent;
-        border-bottom: 0.7em solid #fc0;
-        border-left: 0.3em solid transparent;
-        font-size: 0.7rem;
-    }
-
-    .star:before,
-    .star:after {
-        content: "";
-        display: block;
-        width: 0;
-        height: 0;
-        position: absolute;
-        top: 0.6em;
-        left: -1em;
-        border-right: 1em solid transparent;
-        border-bottom: 0.7em solid #fc0;
-        border-left: 1em solid transparent;
-        transform: rotate(-35deg);
-    }
-
-    .star:after {
-        transform: rotate(35deg);
-    }
-
     @media only screen and (max-width: 600px) {
         .ship{
             width: 100%;    
@@ -64,7 +31,7 @@
     }
 </style>
 
-<body style="background-color:beige">
+<body>
     <table width="100%" cellspacing="0" cellpadding="0">
         <tr>
             <td>
@@ -290,17 +257,6 @@
                                 style="text-align: center;background-color: rgba(234, 232, 232, 0.686); padding: 10px 20px;">
                                 <tr>
                                     <td>
-                                        <p>
-                                            <i class="star"></i>
-                                            <i class="star"></i>
-                                            <i class="star"></i>
-                                            <i class="star"></i>
-                                            <i class="star"></i>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
                                         <p style="font: 0.9rem sans-serif">
                                             "Before buying my Capisco chair, I had a few questions
                                             about castors and lift height. Fully support was able to answer
@@ -336,7 +292,7 @@
                                             <tr>
                                                 <td>
                                                     <p style="text-align: center;font: 0.9rem sans-serif;background-color: rgb(234, 232, 232);
-                                                    padding: 20px;line-height: 2;transform:translateY(-3rem);z-index: 2;">
+                                                    padding: 20px;line-height: 2;">
                                                     <span style="font-weight: 600;">3 Steps to Building Your Perfect Home
                                                         Office</span><br>
                                                     Learn how to create a home office that makes you come alive, feel good in
@@ -379,13 +335,11 @@
                                 </tr>
                                 <tr>
                                     <td colspan="2">
-                                        <p style="text-align: center;white-space: nowrap">
-                                            <span style="word-spacing: 2em;">
-                                                <span style="color: rgb(255, 234, 0);">support@fully.com</span>
-                                                888-508-3725
-                                            </span>
-                                            Monday to Friday 9am - 8pm EST
+                                        <p style="text-align: center;white-space: nowrap;color: rgb(255, 234, 0);text-decoration: none;">
+                                            <a style="text-decoration: none;color: rgb(255, 234, 0);">support@fully.com</a>
                                         </p>
+                                        <p style="text-align: center">888-508-3725</p>
+                                        <p style="text-align: center;white-space: nowrap">Monday to Friday 9am - 8pm EST</p>                                            
                                     </td>
                                 </tr>
                                 <tr>
